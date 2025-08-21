@@ -1,4 +1,4 @@
-.card-effect{
+.card-effect:hover{
     transform:
     perspective(2000px)
     rotateX(var(--rotateX))
