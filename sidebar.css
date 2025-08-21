@@ -96,3 +96,17 @@
     margin-top: 22vh;
     margin-bottom: 22vh;
 }
+
+@media screen and (max-width: 500px) {
+
+    .sidebar {
+        position: fixed;
+        height: 100vh;
+    }
+    .sidebar.collapsed{
+        transform: translateX(-105px);
+    }
+    .sidebar.collapsed div button{
+        transform: translateX(-60px);
+    }
+}
