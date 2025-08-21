@@ -4,4 +4,8 @@
     rotateX(var(--rotateX))
     rotateY(var(--rotateY))
     ;
+    transition: 0.2s ease-out;
+}
+.card-effect{
+    transition: 0.4s ease;
 }
