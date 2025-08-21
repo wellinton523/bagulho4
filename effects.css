@@ -1,0 +1,7 @@
+.card-effect{
+    transform:
+    perspective(2000px)
+    rotateX(var(--rotateX))
+    rotateY(var(--rotateY))
+    ;
+}

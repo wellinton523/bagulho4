@@ -1,0 +1,98 @@
+.mono-button{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s ease;
+    align-items: center;
+    padding: 10px;
+}
+
+.mono-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.sidebar{
+    width: 20em;;
+    transition: 0.4s ease;
+}
+
+.sidebar.collapsed{
+    width: 90px;
+}
+.sidebar > div{
+    transition: 0.4s ease;
+}
+
+.sidebar div > span{
+    position: relative;
+    transition: 0.4s ease;
+}
+
+.sidebar.collapsed div > span{
+    transform: 
+    translateX(-60px)
+    translateY(65px)
+    ;
+}
+
+.sidebar a{
+    height: 60px;
+}
+
+.sidebar a p{
+    transition: 0.4s ease;
+}
+
+.sidebar.collapsed a p{
+    width: 0px;
+    opacity: 0;
+    font-size: 0%;
+    visibility: hidden;
+}
+
+.sidebar a i{
+    transition: 0.4s ease;
+}
+
+.sidebar.collapsed a i{
+    transform: translateX(8px);
+}
+
+.sidebar.collapsed a svg{
+    position: relative;
+    transform:
+    translateX(9px)
+    ;
+}
+
+.sidebar div button{
+    width: 20px;
+    transform: translateX(25px);
+    transition: 0.4s ease;
+}
+
+.sidebar.collapsed div button{
+    transform: translateX(-70px);
+}
+
+.sidebar .tird-nav{
+    visibility: hidden;
+    position: absolute;
+    scale: 0;
+}
+
+.sidebar.collapsed .secund-nav{
+    visibility: hidden;
+    position: absolute;
+    scale: 0;
+}
+
+.sidebar.collapsed .tird-nav{
+    scale: 100%;
+    position: inherit;
+    visibility: visible;
+    margin-top: 22vh;
+    margin-bottom: 22vh;
+}
