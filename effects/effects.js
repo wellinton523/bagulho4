@@ -1,7 +1,9 @@
 const card = document.querySelector(".card-effect");
+const card2 = document.querySelector(".card-effect2");
 
 document.addEventListener("mousemove", (e) => {
     rotate(e, card)
+    rotate(e, card2)
 })
 
 function rotate(event, element){
@@ -17,4 +19,6 @@ function rotate(event, element){
 
     element.style.setProperty("--rotateX", ofsety * -1 + "deg")
     element.style.setProperty("--rotateY", ofsetx + "deg")
+
+    
 }

@@ -9,3 +9,15 @@
 .card-effect{
     transition: 0.4s ease;
 }
+
+.card-effect2:hover{
+    transform:
+    perspective(2000px)
+    rotateX(var(--rotateX))
+    rotateY(var(--rotateY))
+    ;
+    transition: 0.1s ease-out;
+}
+.card-effect2{
+    transition: 0.4s ease;
+}

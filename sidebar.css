@@ -101,7 +101,7 @@
 
     .sidebar {
         position: fixed;
-        height: 100vh;
+        height: 190vh;
     }
     .sidebar.collapsed{
         transform: translateX(-105px);
